@@ -11,6 +11,17 @@ class MainActivity : AppCompatActivity() {
     }
 //Это Алым, пишу с alym_branch
 
+
+
+ 
+ //айчолпон
+
+
+
 // это я Бексултан
-    //djsfbd
+
+//djsfbd
+
+
+ master
 }
