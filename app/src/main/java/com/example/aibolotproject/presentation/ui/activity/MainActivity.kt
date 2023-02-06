@@ -10,4 +10,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 //Это Алым, пишу с alym_branch
+
+// это я Бексултан
 }
