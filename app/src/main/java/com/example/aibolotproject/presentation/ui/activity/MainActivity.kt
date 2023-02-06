@@ -12,5 +12,6 @@ class MainActivity : AppCompatActivity() {
 //Это Алым, пишу с alym_branch
 
 // это я Бексултан
-    //djsfbd
+    //djsfb
+    //Снова пишу с Алымбранч
 }
