@@ -9,6 +9,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+
+
+
+
 //Это Алым, пишу с alym_branch
 //Это Талант, пишу с talant_branch
+
 }
