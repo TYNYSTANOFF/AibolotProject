@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/registrationFirstFragment">
+
+    <fragment
+        android:id="@+id/registrationFirstFragment"
+        android:name="com.example.aibolotproject.presentation.ui.fragment.RegistrationFirstFragment"
+        android:label="fragment_registration_first"
+        tools:layout="@layout/fragment_registration_first" >
+        <action
+            android:id="@+id/action_registrationFirstFragment_to_enterNumberFragment"
+            app:destination="@id/enterNumberFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/enterNumberFragment"
+        android:name="com.example.aibolotproject.presentation.ui.fragment.EnterNumberFragment"
+        android:label="fragment_enter_number"
+        tools:layout="@layout/fragment_enter_number" >
+        <action
+            android:id="@+id/action_enterNumberFragment_to_enterCodeFragment"
+            app:destination="@id/enterCodeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/enterCodeFragment"
+        android:name="com.example.aibolotproject.presentation.ui.fragment.EnterCodeFragment"
+        android:label="fragment_enter_code"
+        tools:layout="@layout/fragment_enter_code" />
+</navigation>
