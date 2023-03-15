@@ -33,7 +33,6 @@ android {
     buildFeatures{
         viewBinding true
     }
-
 }
 
 dependencies {
@@ -46,12 +45,17 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
+
     //ViewBindingDelegate
     implementation ("com.github.kirich1409:viewbindingpropertydelegate-noreflection:1.5.8")
 
     //Navigation
     implementation("androidx.navigation:navigation-fragment-ktx:2.5.3")
     implementation("androidx.navigation:navigation-ui-ktx:2.5.3")
+
+    //nav component
+    implementation "androidx.navigation:navigation-fragment-ktx:2.5.3"
+    implementation "androidx.navigation:navigation-ui-ktx:2.5.3"
 
     //FireBase
     implementation ("com.google.firebase:firebase-auth:21.1.0")

@@ -23,3 +23,6 @@ class MainActivity : AppCompatActivity() {
 //if (!Prefs(this).isShow()) {
 //    navController.navigate(R.id.boardFragment)
 //}
+
+
+}
