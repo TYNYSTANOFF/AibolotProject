@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/servicesFragment">
+
+    <fragment
+        android:id="@+id/servicesFragment"
+        android:name="com.example.aibolotproject.presentation.ui.fragments.ServicesFragment"
+        android:label="fragment_services"
+        tools:layout="@layout/fragment_services" />
+    <fragment
+        android:id="@+id/servicesOrthopedicsFragment"
+        android:name="com.example.aibolotproject.presentation.ui.fragments.ServicesOrthopedicsFragment"
+        android:label="fragment_services_orthopedics"
+        tools:layout="@layout/fragment_services_orthopedics" />
+</navigation>
